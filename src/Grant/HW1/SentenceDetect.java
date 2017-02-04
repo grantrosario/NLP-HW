@@ -23,7 +23,7 @@ public class SentenceDetect {
 		// Instantiating the sentenceDetectorME class
 		SentenceDetectorME detector = new SentenceDetectorME(model);
 		
-		// Assigning text file to StringBuilder variable
+		// Append each line of news article to strFile
 		while((num = textReader.read(buffer)) != -1) {
 				String current = String.valueOf(buffer, 0, num);
 				strFile.append(current);
