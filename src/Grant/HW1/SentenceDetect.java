@@ -1,4 +1,4 @@
-package Grant;
+package Grant.HW1;
 
 import java.io.FileInputStream;
 import java.io.InputStream;

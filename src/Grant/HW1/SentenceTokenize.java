@@ -1,4 +1,4 @@
-package Grant;
+package Grant.HW1;
 
 import opennlp.tools.tokenize.WhitespaceTokenizer;
 public class SentenceTokenize {
