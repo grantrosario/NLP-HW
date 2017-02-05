@@ -35,6 +35,7 @@ public class SentenceDetect {
 		
 		// Close BufferedReader
 		textReader.close();
+		inputStream.close();
 		
 		// Printing the sentences
 		for(String sent : sentences)

@@ -43,6 +43,7 @@ public class SentenceTokenize {
 		
 		// Close BufferedReader
 		textReader.close();
+		inputStream.close();
 		
 		// Tokenize each sentence into words and print out each word
 		for(int i = 0; i < sentences.length; i++) {
