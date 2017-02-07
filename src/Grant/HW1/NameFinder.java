@@ -21,7 +21,7 @@ public class NameFinder {
 		char[] buffer = new char[512];
 		int num = 0;
 		
-		// Loading sentence detector model
+		// Loading sentence detector, name finder, and location finder models
 		InputStream detectStream = new FileInputStream("en-sent.bin");
 		InputStream nameStream = new FileInputStream("en-ner-person.bin");
 		InputStream locStream = new FileInputStream("en-ner-location.bin");
